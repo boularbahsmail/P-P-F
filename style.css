@@ -100,9 +100,9 @@ p {
 	list-style: none;
 	position: absolute;
 	background-color: rgb(31, 30, 30);
-	width: 100vw;
+	width: 115%;
 	height: 120vh;
-	left: 100%;
+	left: 120%;
 	top: 0;
 	display: flex;
 	flex-direction: column;
@@ -159,6 +159,11 @@ p {
 	transform: scale(.8);
 	margin-right: 20px;
 }
+
+#janeb {
+	background-color: red;
+}
+
 #header .hamburger:after {
 	position: absolute;
 	content: '';
@@ -576,7 +581,6 @@ p {
 	}
 }
 /* End Keyframes */
-
 /* Media Query For Tablet */
 @media only screen and (min-width: 768px) {
 	.cta {
@@ -667,6 +671,9 @@ p {
 		width: 30%;
 		margin: 0;
 		flex-direction: row;
+	}
+	#buhdo {
+		width:30%;
 	}
 	#contact .contact-item .icon {
 		height: 100px;
