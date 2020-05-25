@@ -266,6 +266,9 @@ p {
 /* End Hero Section */
 
 /* Services Section */
+#services {
+	margin-top: -5%;
+}
 #services .services {
 	flex-direction: column;
 	text-align: center;
@@ -328,6 +331,9 @@ p {
 /* End Services Section */
 
 /* Projects section */
+#projects {
+	margin-top: -8%;
+}
 #projects .projects {
 	flex-direction: column;
 	max-width: 1200px;
@@ -401,6 +407,9 @@ p {
 /* End Projects section */
 
 /* About Section */
+#about{
+	margin-top: -7%;
+}
 #about .about {
 	flex-direction: column-reverse;
 	text-align: center;
@@ -449,6 +458,9 @@ p {
 /* End About Section */
 
 /* contact Section */
+#contact {
+	margin-top: -15%;
+}
 #contact .contact {
 	flex-direction: column;
 	max-width: 1200px;
@@ -462,8 +474,6 @@ p {
 	padding: 20px;
 	text-align: center;
 	border-radius: 10px;
-	padding: 30px;
-	margin: 30px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -589,6 +599,9 @@ p {
 	/* End Services Section */
 
 	/* Project */
+	#projects {
+		margin-top: -5%;
+	}
 	#projects .project-item {
 		flex-direction: row;
 	}
