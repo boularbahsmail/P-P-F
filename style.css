@@ -527,7 +527,7 @@ p {
 #footer .social-item {
 	height: 50px;
 	width: 50px;
-	margin: 0 5px;
+	margin: 0 20px;
 }
 #footer .social-item img {
 	filter: grayscale(1);
@@ -716,7 +716,7 @@ p {
 /* End  Media Query For Desktop */
 
 body::-webkit-scrollbar {
-	width: 1em;
+	width: 0.4em;
 	background-color: white;
 	border-radius: 0px;
   }
