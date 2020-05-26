@@ -706,7 +706,7 @@ p {
 @media only screen and (max-width: 900px) {
 	#header .nav-list ul {
 		opacity: 0;
-		width: 120%;
+		width: 105%;
 	}
 	#header {
 		width: 100%;
