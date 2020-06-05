@@ -10,10 +10,13 @@ hamburger.addEventListener('click', () => {
 
 document.addEventListener('scroll', () => {
 	var scroll_position = window.scrollY;
-	if (scroll_position > 250) {
-		header.style.backgroundColor = '#29323c';
-	} else {
+	if (scroll_position > 70) {
+		header.style.backgroundColor = '#fff';
+		header.style.boxShadow = "0 2px 5px 0 #eee";
+	} 
+	else {
 		header.style.backgroundColor = 'transparent';
+		header.style.boxShadow = "0 0px 0px 0 lightgray";
 	}
 });
 
@@ -27,6 +30,3 @@ menu_item.forEach((item) => {
 var time = new Date(),
 	year = time.getFullYear();
 	document.querySelector("#sign").innerHTML = "© boularbah-ismail - " + year;
-
-
-	
