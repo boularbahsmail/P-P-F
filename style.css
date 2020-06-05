@@ -328,7 +328,11 @@ p {
 	margin-bottom: 10px;
 }
 /* End Services Section */
-
+#sc {
+	width: 50px;
+	height: 50px;
+	margin: 25px 0px;
+}
 /* Projects section */
 #projects .projects {
 	flex-direction: column;
@@ -461,7 +465,6 @@ p {
 }
 #contact .contact-item {
 	width: 80%;
-	padding: 20px;
 	text-align: center;
 	border-radius:5px;
 	padding: 5% 5%;
@@ -642,7 +645,7 @@ p {
 	#contact .contact-item {
 		width: 30%;
 		margin:2% 0;
-		flex-direction: row;
+		flex-direction: column;
 		padding: 5% 5%;
 	}
 	#contact .contact-item .icon {
@@ -652,8 +655,8 @@ p {
 	}
 	#contact .contact-item .contact-info {
 		width: 100%;
-		text-align: left;
-		padding-left: 20px;
+		text-align: center;
+		padding-left: 0px;
 	}
 	/* End contact  */
 }
