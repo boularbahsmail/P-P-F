@@ -88,6 +88,11 @@ p {
 	min-height: 8vh;
 	transition: .3s ease background-color;
 }
+
+#offc{
+	margin: 0 30%;
+}
+
 #header .nav-bar {
 	display: flex;
 	align-items: center;
@@ -147,7 +152,6 @@ p {
 	height: 60px;
 	width: 60px;
 	display: inline-block;
-	border: 3px solid #05133a;
 	border-radius: 50%;
 	position: relative;
 	display: flex;
@@ -164,15 +168,15 @@ p {
 	height: 100%;
 	width: 100%;
 	border-radius: 50%;
-	border: 3px solid #05133a;
 	animation: hamburger_puls 1s ease infinite;
 }
 #header .hamburger .bar {
-	height: 2px;
-	width: 30px;
+	height: 3px;
+	width: 40px;
 	position: relative;
 	background-color: #05133a;
 	z-index: -1;
+	border: none;
 }
 #header .hamburger .bar::after,
 #header .hamburger .bar::before {
@@ -181,15 +185,17 @@ p {
 	height: 100%;
 	width: 100%;
 	left: 0;
+	border: none;
+	margin: 2px 0;
 	background-color: #05133a;
-	transition: .3s ease;
+	transition: 0.7s ease;
 	transition-property: top, bottom;
 }
 #header .hamburger .bar::after {
-	top: 8px;
+	top: 11px;
 }
 #header .hamburger .bar::before {
-	bottom: 8px;
+	bottom: 11px;
 }
 #header .hamburger.active .bar::before {
 	bottom: 0;
@@ -501,6 +507,7 @@ i {
 /* End Footer */
 
 /* Keyframes */
+/*
 @keyframes hamburger_puls {
 	0% {
 		opacity: 1;
@@ -532,7 +539,7 @@ i {
 		font-weight: 500;
 	}
 }
-
+*/
 #links {
 	color: rgb(255, 255, 255);
 }
