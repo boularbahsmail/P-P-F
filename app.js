@@ -30,3 +30,9 @@ menu_item.forEach((item) => {
 var time = new Date(),
 	year = time.getFullYear();
 	document.querySelector("#sign").innerHTML = "© boularbah-ismail - " + year;
+
+	function onClickMenu(){
+		document.getElementById("menu").classList.toggle("change");
+		document.getElementById("nav").classList.toggle("change");
+		document.getElementById("menu-bg").classList.toggle("change-bg");
+	  }

@@ -646,6 +646,18 @@ i {
 		text-align: center;
 		padding-left: 0px;
 	}
+	#header .nav-list ul {
+		transition: 0.7s;
+		width: 105%;
+		background-color: rgb(255, 217, 0);
+	}
+
+	#header .nav-list ul li a {
+		color: #fff;
+	}
+	#header .nav-list ul li:hover a {
+		color: #05133a;
+	}
 	/* End contact  */
 }
 /* End Media Query For Tablet */
@@ -655,6 +667,12 @@ i {
 	/* header */
 	#header .hamburger {
 		display: none;
+	}
+	#header .nav-list ul li a {
+		color: #05133a;
+	}
+	#header .nav-list ul li a:hover {
+		color: rgb(255, 217, 0);
 	}
 	#header .nav-list ul {
 		position: initial;
@@ -688,11 +706,18 @@ i {
 
 @media only screen and (max-width: 900px) {
 	#header .nav-list ul {
+		transition: 0.7s;
 		width: 105%;
-		background-color: teal;
+		background-color: rgb(255, 217, 0);
 	}
 	#header .nav-list ul a {
 		color: white;
+	}
+	#header .nav-list ul {
+		margin: -10% 0;
+	}
+	#header .nav-list ul li:hover a {
+		color: #05133a;
 	}
 	#header {
 		width: 100%;
