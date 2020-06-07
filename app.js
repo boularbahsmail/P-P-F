@@ -37,7 +37,8 @@ var time = new Date(),
 		document.getElementById("menu-bg").classList.toggle("change-bg");
 	  }
 
-	  function pp() {
-	  	var audio = new Audio('sound/birds.mp3');
-	  	audio.play();
-	  }
+const start = function() {
+	var audio = new Audio('sound/birds.mp3');
+	audio.currentTime = 0;
+	audio.play();
+}
