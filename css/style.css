@@ -736,16 +736,4 @@ i {
 	}
 }
 
-body::-webkit-scrollbar {
-	width: 0.5em;
-	background-color: white;
-  }
-  body::-webkit-scrollbar-track {
-	box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.3);
-  }
-  body::-webkit-scrollbar-thumb {
-	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
-	outline: 1px solid white;
-	border-radius: 0px;
-	transition: 1s;
-  } 
+
