@@ -2,6 +2,7 @@ const hamburger = document.querySelector('.header .nav-bar .nav-list .hamburger'
 const mobile_menu = document.querySelector('.header .nav-bar .nav-list ul');
 const menu_item = document.querySelectorAll('.header .nav-bar .nav-list ul li a');
 const header = document.querySelector('.header.container');
+mybutton = document.getElementById("myBtn");
 
 hamburger.addEventListener('click', () => {
 	hamburger.classList.toggle('active');
@@ -13,12 +14,13 @@ document.addEventListener('scroll', () => {
 	if (scroll_position > 70) {
 		header.style.backgroundColor = '#fff';
 		header.style.boxShadow = "0 2px 5px 0 #eee";
-		document.querySelector('#back2Top').style.opacity = 1;
+		mybutton.style.opacity = 1;
 	} 
 	else {
 		header.style.backgroundColor = 'transparent';
 		header.style.boxShadow = "0 0px 0px 0 lightgray";
-		document.querySelector('#back2Top').style.opacity = 0;
+
+		mybutton.style.opacity = 0;
 	}
 });
 
@@ -39,4 +41,8 @@ var time = new Date(),
 		document.getElementById("menu-bg").classList.toggle("change-bg");
 	  }
 
-/*Scroll to top when arrow up clicked BEGIN*/
+
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
