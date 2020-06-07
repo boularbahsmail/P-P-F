@@ -775,5 +775,5 @@ body::-webkit-scrollbar {
   transform: rotateY(180deg);
   border-radius: 30px; /* Rounded corners */
   font-size: 18px; /* Increase font size */
-  transition: 0.3s;
+  transition: 0.7s;
 }
