@@ -438,7 +438,7 @@ p {
 	top: 19px;
 	height: 98%;
 	width: 98%;
-	border: 7px solid rgb(255, 217, 0);
+	border: 7px solid #262626;
 	z-index: -1;
 }
 /* End About Section */
@@ -611,7 +611,7 @@ i {
 		top: 34px;
 		height: 98%;
 		width: 98%;
-		border: 10px solid crimson;
+		border: 10px solid #262626;
 	}
 	#about .col-right {
 		text-align: left;
