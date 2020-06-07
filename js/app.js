@@ -13,10 +13,12 @@ document.addEventListener('scroll', () => {
 	if (scroll_position > 70) {
 		header.style.backgroundColor = '#fff';
 		header.style.boxShadow = "0 2px 5px 0 #eee";
+		document.querySelector('#back2Top').style.display = 'block';
 	} 
 	else {
 		header.style.backgroundColor = 'transparent';
 		header.style.boxShadow = "0 0px 0px 0 lightgray";
+		document.querySelector('#back2Top').style.display = 'none';
 	}
 });
 
@@ -36,3 +38,5 @@ var time = new Date(),
 		document.getElementById("nav").classList.toggle("change");
 		document.getElementById("menu-bg").classList.toggle("change-bg");
 	  }
+
+/*Scroll to top when arrow up clicked BEGIN*/
