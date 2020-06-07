@@ -764,7 +764,6 @@ body::-webkit-scrollbar {
     border-radius: 5px;
     z-index: 999;
     opacity: 0;
-    content: "\f077";
     cursor: pointer;
     /*
     -moz-transform: rotate(270deg);
@@ -775,7 +774,7 @@ body::-webkit-scrollbar {
     */
     position: fixed;
     bottom: 20px;
-    right: 1.5%;
+    right: 2%;
     /*background-color: #DDD;*/
     color: #555;
     text-align: center;
