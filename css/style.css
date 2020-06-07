@@ -726,6 +726,9 @@ i {
 		color: white;
 		cursor: none;
 	}
+	.brand a {
+		cursor: none;
+	}
 	#header .nav-list ul {
 		margin: -10% 0;
 	}
