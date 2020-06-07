@@ -5,6 +5,7 @@
 	margin: 0;
 	box-sizing: border-box;
 	transition: 0.3s;
+	scroll-behavior: smooth;
 	outline: none;
 	font-family:Muli;
 }
