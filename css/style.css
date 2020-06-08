@@ -448,7 +448,7 @@ p {
 }
 /* End About Section */
 
-/* contact Section */
+/* contact Section 
 #contact .contact {
 	flex-direction: column;
 	max-width: 1200px;
@@ -757,6 +757,24 @@ body::-webkit-scrollbar {
 	transition: 1s;
   } 
 
+#contact .contact {
+	flex-direction: column;
+	text-align: center;
+	max-width: 1500px;
+	margin: 0 auto;
+	padding: 100px 0;
+}
+#services .service-top {
+	max-width: 500px;
+	margin: 0 auto;
+}
+#services .service-bottom {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-top: 50px;
+}
 
 #myBtn {
   opacity:0; /* Hidden by default */

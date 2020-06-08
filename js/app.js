@@ -31,18 +31,14 @@ menu_item.forEach((item) => {
 	});
 });
 
-var time = new Date(),
-	year = time.getFullYear();
-	document.querySelector("#sign").innerHTML = "© boularbah-ismail - " + year;
-
 	function onClickMenu(){
 		document.getElementById("menu").classList.toggle("change");
 		document.getElementById("nav").classList.toggle("change");
 		document.getElementById("menu-bg").classList.toggle("change-bg");
 	  }
 
-
 function topFunction() {
   document.body.scrollTop = 0; // For Safari
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
+
