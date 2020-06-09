@@ -742,6 +742,9 @@ i {
 	#image {
 		display: none;
 	}
+	.section-title {
+		text-transform: uppercase;
+	}
 }
 
 body::-webkit-scrollbar {
