@@ -323,13 +323,15 @@ p {
 	margin-bottom: 10px;
 }
 /* End Services Section */
+
+#services .service-item:hover #sc {
+	margin: 10px 0px;
+}
+
 #sc {
 	width: 70px;
 	height: 70px;
 	margin: 15px 0px;
-}
-#sc:hover{
-	margin: 10px 0px;
 }
 /* Projects section */
 #projects .projects {
