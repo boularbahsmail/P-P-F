@@ -571,12 +571,6 @@ i {
 		font-size: 6rem;
 		text-transform: uppercase;
 	}
-	#myBtn{
-		cursor: none;
-	}
-	#op{
-		cursor: none;
-	}
 	/* Hero */
 	#hero h1 {
 		font-size: 7rem;
