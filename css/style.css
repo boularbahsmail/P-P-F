@@ -573,7 +573,12 @@ i {
 		font-size: 6rem;
 		text-transform: uppercase;
 	}
-
+	#myBtn{
+		cursor: none;
+	}
+	#op{
+		cursor: none;
+	}
 	/* Hero */
 	#hero h1 {
 		font-size: 7rem;
@@ -730,6 +735,12 @@ i {
 	}
 	#header .nav-list ul a {
 		color: white;
+		cursor: none;
+	}
+	#myBtn{
+		cursor: none;
+	}
+	#op{
 		cursor: none;
 	}
 	.brand a {
