@@ -72,10 +72,6 @@ p {
 .brand h1 {
 	font-size: 3rem;
 	text-transform: uppercase;
-	color: crimson;
-}
-.brand h1 span {
-	color: crimson;
 }
 
 /* Header section */
@@ -192,7 +188,7 @@ p {
 	width: 100%;
 	left: 0;
 	border: none;
-	margin: 2px 0;
+	margin: 0px 0;
 	background-color: #05133a;
 	transition: 0.7s ease;
 	transition-property: top, bottom;
@@ -205,9 +201,11 @@ p {
 }
 #header .hamburger.active .bar::before {
 	bottom: 0;
+	background-color: #fff;
 }
 #header .hamburger.active .bar::after {
 	top: 0;
+	background-color: #fff;
 }
 /* End Header section */
 #image {
@@ -693,6 +691,7 @@ i {
 	}
 	#header .nav-list ul li a {
 		color: #05133a;
+		text-transform: none;
 	}
 	#header .nav-list ul li a:hover {
 		color: rgb(255, 217, 0);
@@ -731,7 +730,7 @@ i {
 	#header .nav-list ul {
 		transition: 0.7s;
 		width: 105%;
-		background-color: rgb(255, 217, 0);
+		background-color: #05133a;
 	}
 	#header .nav-list ul a {
 		color: white;
@@ -750,7 +749,7 @@ i {
 		margin: -10% 0;
 	}
 	#header .nav-list ul li:hover a {
-		color: #05133a;
+		color: #fff;
 	}
 	#header {
 		width: 100%;
@@ -763,19 +762,6 @@ i {
 	}
 }
 
-body::-webkit-scrollbar {
-	width: 0.5em;
-	background-color: white;
-  }
-  body::-webkit-scrollbar-track {
-	box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.3);
-  }
-  body::-webkit-scrollbar-thumb {
-	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
-	outline: 1px solid white;
-	border-radius: 0px;
-	transition: 1s;
-  } 
 
 #contact .contact {
 	flex-direction: column;
