@@ -42,3 +42,19 @@ function topFunction() {
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
 
+
+document.getElementById('zero').addEventListener('click', () => {
+	document.getElementById('tit').innerHTML = "Ismail Boularbah"
+})
+
+document.getElementById('one').addEventListener('click', () => {
+	document.getElementById('tit').innerHTML = "Ismail Boularbah - Skills"
+})
+
+document.getElementById('two').addEventListener('click', () => {
+	document.getElementById('tit').innerHTML = "Ismail Boularbah - Projects"
+})
+
+document.getElementById('three').addEventListener('click', () => {
+	document.getElementById('tit').innerHTML = "Ismail Boularbah - Contact"
+})

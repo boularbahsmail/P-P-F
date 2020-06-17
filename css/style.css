@@ -30,7 +30,6 @@ img {
 	object-fit: cover;
 }
 p {
-	color: black;
 	font-size: 1.4rem;
 	margin-top: 5px;
 	line-height: 35px;
@@ -340,6 +339,7 @@ p {
 }
 #projects .projects-header h1 {
 	margin-bottom: 50px;
+	font-size: 40px;
 }
 #projects .all-projects {
 	display: flex;
@@ -369,7 +369,6 @@ p {
 	color: white;
 }
 #projects .project-info h1 {
-	font-size: 4rem;
 	font-weight: 500;
 }
 #projects .project-info h2 {
@@ -664,7 +663,7 @@ i {
 	#header .nav-list ul {
 		transition: 0.7s;
 		width: 105%;
-		background-color: rgb(255, 217, 0);
+		background-color: #05133a;
 	}
 
 	#header .nav-list ul li a {
