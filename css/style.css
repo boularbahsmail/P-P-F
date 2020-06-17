@@ -568,7 +568,7 @@ i {
 	}
 	h1.section-title {
 		font-size: 6rem;
-		text-transform: uppercase;
+		
 	}
 	/* Hero */
 	#hero h1 {
@@ -751,7 +751,7 @@ i {
 		display: none;
 	}
 	.section-title {
-		text-transform: uppercase;
+		font-weight: 800;
 	}
 }
 
