@@ -44,7 +44,7 @@ function topFunction() {
 
 
 document.getElementById('zero').addEventListener('click', () => {
-	document.getElementById('tit').innerHTML = "Ismail Boularbah - About"
+	document.getElementById('tit').innerHTML = "Ismail Boularbah"
 })
 
 document.getElementById('one').addEventListener('click', () => {
