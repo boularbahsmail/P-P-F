@@ -174,7 +174,6 @@ p {
 #header .hamburger .bar {
 	height: 5px;
 	width: 40px;
-	content: '';
 	left: 0;
 	margin: 3px 0;
 	transition: 0.7s;
