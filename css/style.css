@@ -7,6 +7,7 @@
 	transition: 0.3s;
 	scroll-behavior: smooth;
 	outline: none;
+	border: none;
 	font-family:Muli;
 }
 html {
@@ -125,7 +126,7 @@ p {
 	text-decoration: none;
 	color: #05133a;
 	border-width: 0px;
-    border-style: initial;
+    border:none;
 	text-transform: uppercase;
 	padding: 20px;
 	display: block;
@@ -158,9 +159,7 @@ p {
 	align-items: center;
 	justify-content: center;
 	z-index: 100;
-	border-width: 0px;
-    border-style: initial;
-	transform: scale(.8);
+    border: none;
 	margin-right: 20px;
 }
 #header .hamburger:after {
@@ -169,13 +168,18 @@ p {
 	height: 100%;
 	width: 100%;
 	border-radius: 50%;
+	border: none;
 	animation: hamburger_puls 1s ease infinite;
 }
 #header .hamburger .bar {
-	height: 3px;
+	height: 5px;
 	width: 40px;
+	content: '';
+	left: 0;
+	margin: 3px 0;
+	transition: 0.7s;
 	position: relative;
-	background-color: #05133a;
+	background-color: rgb(1, 22, 39);
 	z-index: -1;
 	border: none;
 }
@@ -187,23 +191,28 @@ p {
 	width: 100%;
 	left: 0;
 	border: none;
-	margin: 0px 0;
+	margin: 3px 0;
 	background-color: rgb(1, 22, 39);
-	transition: 0.7s ease;
-	transition-property: top, bottom;
+	transition: 0.7s;
 }
 #header .hamburger .bar::after {
-	top: 11px;
+	top: 12px;
+	height: 5px;
 }
 #header .hamburger .bar::before {
-	bottom: 11px;
+	bottom: 12px;
+	height: 5px;
 }
 #header .hamburger.active .bar::before {
-	bottom: 0;
+	transition: 0.7s;
+	bottom: -2.5px;
+	transform: rotate(-45deg);
 	background-color: #fff;
 }
 #header .hamburger.active .bar::after {
-	top: 0;
+	transition: 0.7s;
+	top: -2.5px;
+	transform: rotate(45deg);
 	background-color: #fff;
 }
 /* End Header section */
@@ -551,6 +560,9 @@ i {
 		font-size: 2.5rem;
 		padding: 20px 60px;
 	}
+	* {
+		box-sizing: border-box;
+	}
 	h1.section-title {
 		font-size: 6rem;
 		
@@ -648,7 +660,7 @@ i {
 	#header .nav-list ul {
 		transition: 0.7s;
 		width: 105%;
-		background-color: #05133a;
+		background-color: rgb(1, 22, 39);
 	}
 
 	#header .nav-list ul li a {
@@ -666,6 +678,9 @@ i {
 	/* header */
 	#header .hamburger {
 		display: none;
+	}
+	* {
+		box-sizing: border-box;
 	}
 	#header .nav-list ul li a {
 		color: #05133a;
@@ -701,6 +716,9 @@ i {
 	#image {
 		display: none;
 	}
+	* {
+		box-sizing: border-box;
+	}
 }
 /* End  Media Query For Desktop */
 
@@ -708,7 +726,10 @@ i {
 	#header .nav-list ul {
 		transition: 0.7s;
 		width: 105%;
-		background-color: #05133a;
+		background-color: rgb(1, 22, 39);
+	}
+	* {
+		box-sizing: border-box;
 	}
 	#header .nav-list ul a {
 		color: white;
