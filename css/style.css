@@ -251,8 +251,8 @@ p {
 #hero .hero {
 	max-width: 1200px;
 	margin: 0 auto;
-	padding: 0 55px;
-	justify-content: center;
+	padding: 0 60px;
+	justify-content: flex-end;
 }
 #hero h1 {
 	display: block;
