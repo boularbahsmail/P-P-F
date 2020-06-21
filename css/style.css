@@ -89,7 +89,11 @@ p {
 }
 
 #offc{
-	margin: 0 30%;
+	margin: 0 21%;
+	color: rgb(1, 22, 39);
+	font-size: 20px;
+	font-weight: 800;
+	font-family: Montserrat;
 }
 
 #header .nav-bar {
