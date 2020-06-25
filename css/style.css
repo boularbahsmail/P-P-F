@@ -213,13 +213,13 @@ p {
 }
 #header .hamburger.active .bar::before {
 	transition: 0.5s;
-	bottom: -2.5px;
+	bottom: 1px;
 	transform: rotate(-45deg);
 	background-color: #fff;
 }
 #header .hamburger.active .bar::after {
 	transition: 0.5s;
-	top: -2.5px;
+	top: 0px;
 	transform: rotate(45deg);
 	background-color: #fff;
 }
