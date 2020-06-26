@@ -227,7 +227,7 @@ p {
 	float: right;
 	height: 500px;
 	width: 500px;
-	margin: -90% -130%;
+	margin: -90% -126%;
 }
 
 /* Hero Section */
@@ -722,12 +722,28 @@ i {
 		margin: 1.5%;
 	}
 }
+@media only screen and (max-width: 1000px) {
+	#image {
+		width: 400px;
+		height: 400px;
+		margin: -97% -170%;
+	}
+}
 @media only screen and (max-width:1200px) {
 	#image {
-		display: none;
+		width: 400px;
+		height: 400px;
+		margin: -97% -120%;
 	}
 	* {
 		box-sizing: border-box;
+	}
+}
+@media only screen and (max-width: 990px) {
+	#image {
+		height: 370px;
+		width: 370px;
+		margin:-95% -100%;
 	}
 }
 /* End  Media Query For Desktop */
