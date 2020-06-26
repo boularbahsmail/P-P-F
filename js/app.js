@@ -3,7 +3,6 @@ const mobile_menu = document.querySelector('.header .nav-bar .nav-list ul');
 const menu_item = document.querySelectorAll('.header .nav-bar .nav-list ul li a');
 const header = document.querySelector('.header.container');
 mybutton = document.getElementById("myBtn");
-about = document.getElementById('about');
 
 hamburger.addEventListener('click', () => {
 	hamburger.classList.toggle('active');
@@ -20,7 +19,6 @@ document.addEventListener('scroll', () => {
 	else {
 		header.style.backgroundColor = 'transparent';
 		header.style.boxShadow = "0 0px 0px 0 lightgray";
-
 		mybutton.style.opacity = 0;
 	}
 });
