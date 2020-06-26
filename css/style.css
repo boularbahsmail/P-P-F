@@ -722,6 +722,7 @@ i {
 		margin: 1.5%;
 	}
 }
+/* hadi Z1*/
 @media only screen and (max-width: 1000px) {
 	#image {
 		width: 400px;
@@ -729,6 +730,7 @@ i {
 		margin: -97% -170%;
 	}
 }
+/**/
 @media only screen and (max-width:1200px) {
 	#image {
 		width: 400px;
@@ -739,6 +741,7 @@ i {
 		box-sizing: border-box;
 	}
 }
+/* hadi Z2 */
 @media only screen and (max-width: 990px) {
 	#image {
 		height: 370px;
@@ -746,6 +749,7 @@ i {
 		margin:-95% -100%;
 	}
 }
+/**/
 /* End  Media Query For Desktop */
 
 @media only screen and (max-width: 900px) {
