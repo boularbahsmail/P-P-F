@@ -824,7 +824,7 @@ i {
   z-index: 99; /* Make sure it does not overlap */
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
-  color: #fff; /* Text color */
+  color: red; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
   padding: 5px; /* Some padding */
   transform: rotateY(180deg);
@@ -832,10 +832,6 @@ i {
   font-size: 18px; /* Increase font size */
   transition: 0.7s;
 }
-
-
-
-
 
 
 @import url("https://fonts.googleapis.com/css?family=Raleway");
