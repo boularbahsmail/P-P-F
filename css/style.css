@@ -299,7 +299,7 @@ p {
 	flex-direction: column;
 	padding: 50px 150px;
 	border-bottom: 2.5px solid white;
-	border-radius: 5px;
+	border-radius: 20px;
 	box-shadow: 0px 0px 18px 0 #0000002c;
 	background-size: cover;
 	margin: 10px 5%;
@@ -875,11 +875,11 @@ body {
 
 .icon-scroll::before {
     content: '';
-    width: 8px;
-    height: 8px;
+    width: 6px;
+    height: 6px;
     background: rgb(1, 22, 39);
-    margin-left: -3.6px;
-    top: 15px;
+    margin-left: -2.2px;
+    top: 10px;
     border-radius: 50%;
     animation: 1.5s scroll cubic-bezier(0.65, -0.55, 0.25, 1.5) infinite;
 }
