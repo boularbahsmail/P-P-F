@@ -871,6 +871,7 @@ body {
     border-radius: 25px;
     cursor: default;
     bottom: 6rem;
+    box-shadow: 0 0 5px #ccc;
 }
 
 .icon-scroll::before {
