@@ -310,8 +310,7 @@ p {
 }
 
 #services .service-item:hover {
-	box-shadow: 0px 0px 5px 0 #0000002c;
-	border-bottom: 2.5px solid rgb(1, 22, 39);
+	border-bottom: 2.5px solid lightgray;
 }
 
 #services .service-item::after {
