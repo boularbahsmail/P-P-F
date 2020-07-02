@@ -795,6 +795,9 @@ i {
 	#image {
 		display: none;
 	}
+	#imgg {
+		display: none;
+	}
 	.section-title {
 		font-weight: 800;
 	}
