@@ -454,6 +454,14 @@ p {
 	position: relative;
 	border: 0px solid white;
 }
+#oo {
+	font-weight: 800;
+	color: rgb(1, 22, 39);
+	transition: 0.5s;
+}
+#oo:hover {
+	color: gray;
+}
 #about .col-left .about-img::after {
 	content: '';
 	position: absolute;
