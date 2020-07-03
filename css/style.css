@@ -819,8 +819,7 @@ i {
 	margin-top: 50px;
 }
 
-#myBtn {
-  opacity:0; /* Hidden by default */
+#myBtn { 
   width: 53px;
   text-align: center;
   background-color: transparent;
@@ -837,6 +836,7 @@ i {
   border-radius: 30px; /* Rounded corners */
   font-size: 18px; /* Increase font size */
   transition: 0.2s;
+  transform: scale(0);
 }
 
 #myBtn:hover {
