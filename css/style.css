@@ -858,7 +858,7 @@ body {
 *::after {
   box-sizing: border-box;
 }
-
+/*
 .con {
     position: relative;
     display: flex;
@@ -907,5 +907,107 @@ body {
     100% {
         opacity: 0;
         transform: translateY(20px) scale(0.5);
+    }
+}
+*/
+
+
+svg {
+  vertical-align: middle;
+}
+.scroll-down {
+  position: absolute;
+  left: 50%;
+  margin-left: -20px;
+  width: 40px;
+  height: 60px;
+  bottom: 55px;
+  padding-left: 7px;
+  border:none;
+  z-index: 2;
+  color: rgb(1, 22, 39);
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.scroll-down.svg svg {
+  width: 25px;
+  opacity: 0.7;
+
+  -webkit-transition: opacity 5s;
+  -moz-transition: opacity 5s;
+  -ms-transition: opacity 5s;
+  -o-transition: opacity 5s;
+  transition: opacity .5s;
+    -webkit-animation: updown 1s infinite;
+  -moz-animation: updown 1s infinite;
+  -o-animation: updown 1s infinite;
+  animation: updown 1s infinite;
+}
+.scroll-down.svg .stroke {
+  stroke: rgb(1, 22, 39);
+}
+.scroll-down.svg .scroller {
+  fill: rgb(1, 22, 39);
+  -webkit-animation: updown 4s infinite;
+  -moz-animation: updown 4s infinite;
+  -o-animation: updown 4s infinite;
+  animation: updown 4s infinite;
+}
+
+@-webkit-keyframes updown {
+    0% {
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0)
+    }
+    50% {
+        -webkit-transform: translate(0, 5px);
+        transform: translate(0, 5px)
+    }
+    100% {
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0)
+    }
+}
+@-moz-keyframes updown {
+    0% {
+        -moz-transform: translate(0, 0);
+        transform: translate(0, 0)
+    }
+    50% {
+        -moz-transform: translate(0, 25px);
+        transform: translate(0, 5px)
+    }
+    100% {
+        -moz-transform: translate(0, 0);
+        transform: translate(0, 0)
+    }
+}
+@-o-keyframes updown {
+    0% {
+        -o-transform: translate(0, 0);
+        transform: translate(0, 0)
+    }
+    50% {
+        -o-transform: translate(0, 5px);
+        transform: translate(0, 5px)
+    }
+    100% {
+        -o-transform: translate(0, 0);
+        transform: translate(0, 0)
+    }
+}
+@keyframes updown {
+    0% {
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0)
+    }
+    50% {
+        -webkit-transform: translate(0, 5px);
+        transform: translate(0, 10px)
+    }
+    100% {
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0)
     }
 }
