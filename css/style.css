@@ -885,7 +885,7 @@ body {
     width: 6px;
     height: 6px;
     background: rgb(1, 22, 39);
-    margin-left: -2.2px;
+    margin-left: -3px;
     top: 10px;
     border-radius: 50%;
     animation: 1.5s scroll cubic-bezier(0.65, -0.55, 0.25, 1.5) infinite;
