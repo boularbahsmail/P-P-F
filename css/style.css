@@ -890,7 +890,7 @@ body {
     height: 6px;
     background: rgb(1, 22, 39);
     margin-left: -3px;
-    top: 10px;
+    top: 15px;
     border-radius: 50%;
     animation: 1.5s scroll cubic-bezier(0.65, -0.55, 0.25, 1.5) infinite;
 }
@@ -906,6 +906,6 @@ body {
     }
     100% {
         opacity: 0;
-        transform: translateY(30px) scale(0.5);
+        transform: translateY(20px) scale(0.5);
     }
 }
