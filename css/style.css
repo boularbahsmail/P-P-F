@@ -223,9 +223,9 @@ p {
 /* End Header section */
 #image {
 	float: right;
-	height: 500px;
+	height: 100%;
 	width: 500px;
-	margin: -88% -127%;
+	margin: -80% -127%;
 }
 
 /* Hero Section */
