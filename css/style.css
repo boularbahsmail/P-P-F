@@ -100,7 +100,7 @@ p {
 	width: 100%;
 	height: 100%;
 	max-width: 1300px;
-	padding: 15px 10px;
+	padding: 15px 40px;
 }
 #header .nav-list ul {
 	list-style: none;
@@ -225,7 +225,7 @@ p {
 	float: right;
 	height: 500px;
 	width: 500px;
-	margin: -90% -126%;
+	margin: -88% -127%;
 }
 
 /* Hero Section */
@@ -742,7 +742,7 @@ i {
 	#image {
 		width: 400px;
 		height: 400px;
-		margin: -97% -120%;
+		margin: -97% -130%;
 	}
 	* {
 		box-sizing: border-box;
@@ -753,7 +753,7 @@ i {
 	#image {
 		height: 370px;
 		width: 370px;
-		margin:-95% -100%;
+		margin:-95% -110%;
 	}
 }
 /**/
