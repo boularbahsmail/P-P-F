@@ -946,6 +946,7 @@ svg {
 }
 .scroll-down.svg .stroke {
   stroke: rgb(1, 22, 39);
+  stroke-width: 1;
 }
 .scroll-down.svg .scroller {
   fill: rgb(1, 22, 39);
