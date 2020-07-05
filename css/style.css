@@ -561,7 +561,7 @@ i {
 	color: rgb(255, 255, 255);
 }
 #links:hover {
-	margin: 0 1%;
+	padding: 0 1%;
 	color: lightgray;
 }
 #lk {
