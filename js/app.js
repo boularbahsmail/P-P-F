@@ -22,7 +22,7 @@ document.addEventListener('scroll', () => {
 		mybutton.style.transform = "scale(0)";
 	}
 
-	if(scroll_position > 300) {
+	if(scroll_position > 400) {
 		document.getElementById('abt').style.marginLeft = "-0%";
 		document.getElementById('abt').style.opacity = "1";
 	}
@@ -31,7 +31,7 @@ document.addEventListener('scroll', () => {
 		document.getElementById('abt').style.opacity = "0";
 	}
 
-	if(scroll_position > 1020) {
+	if(scroll_position > 1200) {
 		document.getElementById('services').style.marginLeft = "-0%";
 		document.getElementById('services').style.opacity = "1";
 	}
@@ -40,7 +40,7 @@ document.addEventListener('scroll', () => {
 		document.getElementById('services').style.opacity = "0";
 	}
 
-	if(scroll_position > 2090) {
+	if(scroll_position > 2190) {
 		document.getElementById('projects').style.marginLeft = "-0%";
 		document.getElementById('projects').style.opacity = "1";
 	}
@@ -49,7 +49,7 @@ document.addEventListener('scroll', () => {
 		document.getElementById('projects').style.opacity = "0";
 	}
 
-	if(scroll_position > 3700) {
+	if(scroll_position > 3800) {
 		document.getElementById('contact').style.marginLeft = "-0%";
 		document.getElementById('contact').style.opacity = "1";
 	}

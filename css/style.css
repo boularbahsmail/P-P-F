@@ -1020,7 +1020,7 @@ svg {
 }
 
 #services {
-	transition: 1.5s;
+	transition: 1s;
 	margin-left: 8%;
 	opacity: 0;
 }
