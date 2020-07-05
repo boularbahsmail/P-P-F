@@ -15,11 +15,47 @@ document.addEventListener('scroll', () => {
 		header.style.backgroundColor = '#fff';
 		header.style.boxShadow = "0 2px 5px 0 #eee";
 		mybutton.style.transform = "scale(1)";
-	} 
+	}
 	else {
 		header.style.backgroundColor = 'transparent';
 		header.style.boxShadow = "0 0px 0px 0 lightgray";
 		mybutton.style.transform = "scale(0)";
+	}
+
+	if(scroll_position > 300) {
+		document.getElementById('abt').style.marginLeft = "-0%";
+		document.getElementById('abt').style.opacity = "1";
+	}
+	else {
+		document.getElementById('abt').style.marginLeft = "-8%";
+		document.getElementById('abt').style.opacity = "0";
+	}
+
+	if(scroll_position > 1020) {
+		document.getElementById('services').style.marginLeft = "-0%";
+		document.getElementById('services').style.opacity = "1";
+	}
+	else {
+		document.getElementById('services').style.marginLeft = "8%";
+		document.getElementById('services').style.opacity = "0";
+	}
+
+	if(scroll_position > 2090) {
+		document.getElementById('projects').style.marginLeft = "-0%";
+		document.getElementById('projects').style.opacity = "1";
+	}
+	else {
+		document.getElementById('projects').style.marginLeft = "-8%";
+		document.getElementById('projects').style.opacity = "0";
+	}
+
+	if(scroll_position > 3700) {
+		document.getElementById('contact').style.marginLeft = "-0%";
+		document.getElementById('contact').style.opacity = "1";
+	}
+	else {
+		document.getElementById('contact').style.marginLeft = "8%";
+		document.getElementById('contact').style.opacity = "0";
 	}
 });
 

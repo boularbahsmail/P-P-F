@@ -1011,3 +1011,28 @@ svg {
         transform: translate(0, 0)
     }
 }
+
+
+#abt {
+	transition: 1.5s;
+	margin-left: -8%;
+	opacity: 0;
+}
+
+#services {
+	transition: 1.5s;
+	margin-left: 8%;
+	opacity: 0;
+}
+
+#projects {
+	transition: 1.5s;
+	margin-left: -8%;
+	opacity: 0;
+}
+
+#contact {
+	transition: 1.5s;
+	margin-left: 8%;
+	opacity: 0;
+}
