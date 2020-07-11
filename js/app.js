@@ -14,12 +14,10 @@ document.addEventListener('scroll', () => {
 	if (scroll_position > 70) {
 		header.style.backgroundColor = '#fff';
 		header.style.boxShadow = "0 2px 5px 0 #eee";
-		mybutton.style.transform = "scale(1)";
 	}
 	else {
 		header.style.backgroundColor = 'transparent';
 		header.style.boxShadow = "0 0px 0px 0 lightgray";
-		mybutton.style.transform = "scale(0)";
 	}
 
 });
