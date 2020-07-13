@@ -193,7 +193,7 @@ p {
 	content: '';
 	position: absolute;
 	height: 100%;
-	width: 80%;
+	width: 100%;
 	left: 0;
 	border: none;
 	background-color: rgb(1, 22, 39);
@@ -201,7 +201,7 @@ p {
 }
 
 #header .hamburger .bar::after { 
-	background-color: transparent;
+	background-color: rgb(1, 22, 39);
 }
 #header .hamburger .bar::after {
 	top: 12px;
