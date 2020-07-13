@@ -173,7 +173,6 @@ p {
 	content: '';
 	height: 100%;
 	width: 100%;
-	border-radius: 50%;
 	border: none;
 	animation: hamburger_puls 1s ease infinite;
 }
@@ -182,6 +181,7 @@ p {
 	width: 40px;
 	left: 0;
 	margin: 3px 0;
+	border-radius: 5px;
 	transition: 0.7s;
 	position: relative;
 	background-color: rgb(1, 22, 39);
@@ -195,6 +195,7 @@ p {
 	height: 100%;
 	width: 100%;
 	left: 0;
+	border-radius: 5px;
 	border: none;
 	background-color: rgb(1, 22, 39);
 	transition: 0.7s;
