@@ -54,5 +54,5 @@ document.getElementById('two').addEventListener('click', () => {
 })
 
 document.getElementById('three').addEventListener('click', () => {
-	document.getElementById('tit').innerHTML = "Ismail Boularbah - Contact"
+	document.getElementById('tit').innerHTML = "Ismail Boularbah - Get in touch"
 })
