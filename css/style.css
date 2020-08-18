@@ -805,6 +805,9 @@ i {
 	.section-title {
 		font-weight: 800;
 	}
+	p {
+		line-height: :10px;
+	}
 }
 
 
